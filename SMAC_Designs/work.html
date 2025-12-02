@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -113,6 +114,70 @@
           </div>
         </div>
       </section>
+     <section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Project Gallery</h2>
+      <p class="section-subtitle">
+        Click any image to view.
+      </p>
+    </div>
+
+    <div class="gallery-grid">
+      <a href="images/assignment-3.webp" data-fancybox="work-gallery">
+        <img src="images/assignment-3.webp" alt="Street Art Vs. Graffiti">
+      </a>
+
+      <a href="images/dsc_0363.webp" data-fancybox="work-gallery">
+        <img src="images/dsc_0363.webp" alt="Boom Wine">
+      </a>
+
+      <a href="images/gd3_wordlessdiagram_new.webp" data-fancybox="work-gallery">
+        <img src="images/gd3_wordlessdiagram_new.webp" alt="Wordless Diagram">
+      </a>
+
+      <a href="images/gdiii_assignment_4.webp" data-fancybox="work-gallery">
+        <img src="images/gdiii_assignment_4.webp" alt="Top 25">
+      </a>
+
+      <a href="images/KeldornEnvironmentalSolutions-03.png" data-fancybox="work-gallery">
+        <img src="images/KeldornEnvironmentalSolutions-03.png" alt="Keldorn Environmental Solutions">
+      </a>
+
+      <a href="images/Midway_Banner_Mockup_NEW (1).jpg" data-fancybox="work-gallery">
+        <img src="images/Midway_Banner_Mockup_NEW (1).jpg" alt="Midway Banner Mockup">
+      </a>
+
+      <a href="images/Rex_Sketch_3.jpg (1).jpeg" data-fancybox="work-gallery">
+        <img src="images/Rex_Sketch_3.jpg (1).jpeg" alt="Rex Sketch">
+      </a>
+
+      <a href="images/SquareWaves_Branding.png" data-fancybox="work-gallery">
+        <img src="images/SquareWaves_Branding.png" alt="SquareWaves Branding">
+      </a>
+
+      <a href="images/SeanMcCarthy_CTK448_P4 (2).jpg" data-fancybox="work-gallery">
+        <img src="images/SeanMcCarthy_CTK448_P4 (2).jpg" alt="After the Battle">
+      </a>
+
+      <a href="images/SW_Art_1.1.jpg" data-fancybox="work-gallery">
+        <img src="images/SW_Art_1.1.jpg" alt="SquareWaves Poster Design">
+      </a>
+
+      <a href="images/TechFam_NB.png" data-fancybox="work-gallery">
+        <img src="images/TechFam_NB.png" alt="Tech Family">
+      </a>
+
+      <a href="images/Untitled_Artwork (1).png" data-fancybox="work-gallery">
+        <img src="images/Untitled_Artwork (1).png" alt="Business Card Design">
+      </a>
+
+      <a href="images/visions_signs_truck_designs-1.webp" data-fancybox="work-gallery">
+        <img src="images/visions_signs_truck_designs-1.webp" alt="Visions Signs and Design Truck">
+      </a>
+    </div>
+  </div>
+</section>
     </main>
 
     <footer class="site-footer">
@@ -135,5 +200,13 @@
     </footer>
 
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<script>
+  Fancybox.bind('[data-fancybox="work-gallery"]', {
+    Thumbs: { autoStart: true },
+    Toolbar: { display: ["close"] }
+  });
+</script>
+  </script>
 </body>
 </html>
